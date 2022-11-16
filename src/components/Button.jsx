@@ -1,8 +1,10 @@
 import React from 'react'
-
-const Button = () => {
+import styles from '../styles/global';
+const Button = ({assetUrl, Link}) => {
   return (
-    <div>
+    <div className={styles.btnBlack} onClick={() => window.open(Link, "_blank")}>
+        <img  src={assetUrl} alt="expo_icon" 
+        className={styles.btnIcon}/>
       
     </div>
   )
