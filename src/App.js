@@ -19,6 +19,8 @@ const App = () => {
     mockupImg={assets.homeCards}
     reverse
     />
+
+    <Features />
     </div>
   );
 }
