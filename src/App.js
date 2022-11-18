@@ -1,5 +1,6 @@
 import { Download, Features, SectionWrapper } from './components';
 import assets from './assets';
+import styles from './styles/global';
 const App = () => {
   return (
     <div>
@@ -38,6 +39,13 @@ const App = () => {
       />
 
       <Download />
+
+      <div className="px-4 py-4 justify-center items-center 
+      bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}> 
+        Made with love by {""} <span className='bold'>Claudio Terogene</span></p>
+
+      </div>
 
     </div>
   );
