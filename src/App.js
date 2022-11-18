@@ -11,6 +11,7 @@ const App = () => {
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
+        
       />
 
       <SectionWrapper
@@ -42,9 +43,10 @@ const App = () => {
 
       <div className="px-4 py-4 justify-center items-center 
       bg-primary flex-col text-center banner04">
+        <a href='https://claudio-terogene.netlify.app' target="_blank">
         <p className={`${styles.pText} ${styles.whiteText}`}> 
-        Made with love by {""} <span className='bold'>Claudio Terogene</span></p>
-
+        Made with love by {""} <span className='bold'>Claudio TEROGENE</span></p>
+        </a>
       </div>
 
     </div>

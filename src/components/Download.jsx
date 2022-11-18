@@ -10,11 +10,12 @@ const Download = () => {
           <p className={`${styles.pText} ${styles.blackText}`}>
             Get the full source code on GitHub</p>
         </div>
-        <button className={`${styles.btnPrimary}`}>
-          Source Code 
+        <button className={`${styles.btnPrimary}`} >
+          <a href='https://github.com/cterogene/React-Native-Nft-app' target="_blank">Source Code</a> 
         </button>
         <div className={`${styles.flexCenter} `}>
-          <img  src={assets.scene} alt="download_png" className={styles.fullImg}/> 
+          <img  src={assets.scene} alt="download_png" className={styles.fullImg}
+          /> 
 
         </div>
 

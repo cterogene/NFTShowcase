@@ -16,7 +16,8 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
       <p className={` ${reverse ? styles.blackText : styles.whiteText} ${styles.descriptionText}`}>{description}</p>
       {showBtn && (
         <Button  assetUrl={assets.expo} 
-        Link="deployed"/>
+        Link="https://expo.dev/@cterogene/nft-native?serviceType=classic&distribution=expo-go
+        "/>
       )}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
