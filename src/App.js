@@ -29,7 +29,15 @@ const App = () => {
       reverse
       />
 
-      
+      <SectionWrapper
+        title="Creative way to showcase the store"
+        description="The app contains two screens. The first screen list all NFTs
+         while the second one shows the details of a specific NFT. "
+        mockupImg={assets.mockup}
+        banner="banner02"
+      />
+
+      <Download />
 
     </div>
   );
